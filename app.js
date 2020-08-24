@@ -17,6 +17,7 @@ app.get("/api/v1", function (req, res) {
         res.status(400).send();
       }
       res.status(200).json(docs);
+      return;
     });
   }
 
